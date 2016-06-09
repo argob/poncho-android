@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/splashBackground"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimary" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView"
+        android:fillViewport="true">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/tv_base_title"
+                style="@style/Font.Title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/title_base_app" />
+
+            <TextView
+                android:id="@+id/tv_base_version"
+                style="@style/Font.SubTitle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/tv_base_title"
+                android:layout_marginTop="-5dp"
+                android:gravity="center" />
+
+            <include
+                layout="@layout/layout_logo"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="50dp"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_centerInParent="true" />
+
+            <Button
+                android:id="@+id/btn_how_to"
+                style="@style/Button.Primary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxWidth="700dp"
+                android:ems="15"
+                android:layout_above="@+id/btn_download"
+                android:textAllCaps="true"
+                android:layout_centerHorizontal="true"
+                android:text="@string/title_how_to" />
+
+            <Button
+                android:id="@+id/btn_download"
+                style="@style/Button.Secondary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxWidth="700dp"
+                android:ems="15"
+                android:layout_alignParentBottom="true"
+                android:textAllCaps="true"
+                android:layout_centerHorizontal="true"
+                android:text="@string/title_download" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</LinearLayout>

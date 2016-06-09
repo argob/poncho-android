@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/common_action_bar_splitter"
+    android:padding="@dimen/margin_x10"
+    android:orientation="vertical">
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        style="@style/RatingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/megusto"
+        style="@style/TextDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/margin_x5"
+        android:text="@string/rating_like"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        style="@style/TextDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rating_title"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/et_rating_title"
+        android:background="@drawable/border_set"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/title"
+        android:maxLength="10"
+        android:textColor="@android:color/black"
+        android:textCursorDrawable="@android:color/black" />
+
+    <TextView
+        android:id="@+id/tv_description"
+        style="@style/TextDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rating_description"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/et_rating_description"
+        android:background="@drawable/border_set"
+        android:layout_width="match_parent"
+        android:maxLength="10"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/description"
+        android:textColor="@android:color/black"
+        android:textCursorDrawable="@android:color/black"
+        android:inputType="text"/>
+
+</LinearLayout>

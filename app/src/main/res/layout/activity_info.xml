@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/splashBackground"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimary" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <RelativeLayout
+        android:layout_margin="@dimen/activity_margin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_base_title"
+            style="@style/Font.Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/title_base_app" />
+
+        <TextView
+            android:id="@+id/tv_base_version"
+            style="@style/Font.SubTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_base_title"
+            android:layout_marginTop="-5dp"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/tv_rating"
+            style="@style/Button.Dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textAllCaps="true"
+            android:text="@string/rating_app"
+            android:layout_below="@+id/tv_base_version" />
+
+        <include
+            layout="@layout/layout_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:id="@+id/include" />
+
+        <Button
+            android:id="@+id/btn_how_to"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/btn_download"
+            android:textAllCaps="true"
+            android:text="@string/title_how_to"
+            style="@style/Button.Primary" />
+
+        <Button
+            android:id="@+id/btn_download"
+            style="@style/Button.Secondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:textAllCaps="true"
+            android:text="@string/title_download" />
+
+    </RelativeLayout>
+
+</LinearLayout>

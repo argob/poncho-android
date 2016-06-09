@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Demo</string>
+    <string name="navigation_drawer_open"></string>
+    <string name="navigation_drawer_close"></string>
+
+    <!--navbar head-->
+    <string name="tv_nav_title">Ministerio de Modernizaci&#243;n</string>
+
+    <!--navbar body-->
+    <string name="tv_nav_body_section1">Section 1</string>
+    <string name="tv_nav_body_section2">Section 2</string>
+    <string name="tv_nav_body_section3">Section 3</string>
+
+    <string name="tv_nav_body_information"> @string/title_information</string>
+    <string name="tv_nav_body_about">@string/title_about</string>
+    <string name="tv_nav_body_terms">@string/title_terms_conditions</string>
+
+    <!--menu item titles-->
+    <string name="action_info">info</string>
+
+    <!--title sections-->
+    <string name="title_information">Información</string>
+    <string name="title_about">Acerca de</string>
+    <string name="title_about_full">Acerca de esta aplicación</string>
+    <string name="title_terms_conditions">Términos y Condiciones</string>
+
+    <string name="share_chooser">Compartir con</string>
+    <string name="accept">Aceptar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="no_sd_card_msg">No se encontr\u00F3 la tarjeta SD.</string>
+    <string name="http_exception_msg">Ha ocurrido un problema en el servidor, por favor intente m\u00E1s tarde.</string>
+
+    <string name="dialogTitle">Use Google location service?</string>
+    <string name="dialogMessage">Let Google help apps determine location. This means sending anonymous location data to Google, even when no apps are running.</string>
+
+    <!-- about sections-->
+    <string name="title_base_app">Base para apps</string>
+    <string name="version_base_app">Version %1$s</string>
+    <string name="rating_app">Valorar aplicación</string>
+    <string name="title_how_to">Cómo usar la aplicación</string>
+    <string name="title_send_sms">Enviar SMS</string>
+    <string name="title_download">Descargar más aplicaciones</string>
+
+    <!-- OnBoarding -->
+    <string-array name="string_array_title">
+        <item>Bienvenido</item>
+        <item>Titulo 2</item>
+        <item>Titulo 3</item>
+        <item>Titulo 4</item>
+    </string-array>
+
+    <string-array name="string_array_subtitle">
+        <item>Subtitlo 1</item>
+        <item>Subtitlo 2</item>
+        <item>Subtitlo 3</item>
+        <item>Subtitlo 4</item>
+    </string-array>
+
+    <array name="drawable_array_image">
+        <item>@drawable/screen</item>
+        <item>@drawable/screen</item>
+        <item>@drawable/screen</item>
+        <item>@drawable/screen</item>
+    </array>
+
+    <!-- dialog sections-->
+    <string name="rating_like">Me gustó</string>
+    <string name="rating_title">Tiíulo</string>
+    <string name="rating_description">Descripción</string>
+    <string name="send">Enviar</string>
+    <string name="rating_title_comment">Enviar %1$s y %2$s</string>
+    <string name="permissions_general">Permisos requeridos.</string>
+
+</resources>

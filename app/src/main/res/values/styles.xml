@@ -1,0 +1,91 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat">
+        <!-- Customize your theme here. -->
+        <item name="titleTextColor">@color/colorWhite</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="NavViewColor" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="titleTextColor">@color/colorWhite</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.NoWindowActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="Font">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorText</item>
+    </style>
+
+    <style name="Font.Title">
+        <item name="android:textSize">30sp</item>
+        <item name="android:layout_margin">@dimen/title_margin</item>
+    </style>
+
+    <style name="Font.SubTitle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/colorGreyLight</item>
+    </style>
+
+    <style name="Font.TitleBlue">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_margin">@dimen/activity_margin</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="Button">
+        <item name="android:layout_margin">@dimen/btn_margin</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="Button.Primary">
+        <item name="android:background">@color/colorSecondary</item>
+    </style>
+
+    <style name="Button.Secondary">
+        <item name="android:background">@color/colorGreyLight</item>
+    </style>
+
+    <style name="Button.Dialog">
+        <item name="android:background">@color/transparent</item>
+        <item name="android:textColor">@color/colorSecondary</item>
+    </style>
+
+    <style name="Button.Cancel_Rating">
+        <item name="android:background">@color/transparent</item>
+        <item name="android:textColor">@color/wallet_secondary_text_holo_dark</item>
+    </style>
+
+    <style name="Button.Send_Rating">
+        <item name="android:background">@color/transparent</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="TextDialog">
+        <item name="android:background">@color/transparent</item>
+        <item name="android:textColor">@color/colorGreyLight</item>
+    </style>
+
+    <style name="RatingBar" parent="@android:style/Widget.Holo.RatingBar"></style>
+
+</resources>

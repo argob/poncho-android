@@ -1,0 +1,11 @@
+<resources>
+
+    <dimen name="activity_margin">16dp</dimen>
+    <dimen name="margin_x10">10dp</dimen>
+    <dimen name="margin_x5">5dp</dimen>
+
+    <dimen name="title_margin">@dimen/margin_x10</dimen>
+    <dimen name="row_margin">@dimen/margin_x5</dimen>
+    <dimen name="btn_margin">@dimen/margin_x10</dimen>
+
+</resources>

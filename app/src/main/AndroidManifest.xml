@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ar.gob.demo">
+
+    <!-- Set permissions -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:name="ar.gob.demo.helpers.AppApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+
+        <activity
+            android:name="ar.gob.demo.ui.activities.SplashActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="ar.gob.demo.ui.activities.OnBoardingActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="ar.gob.demo.ui.activities.HomeActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="ar.gob.demo.ui.activities.AboutActivity"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="971968787103d65cfc6e429d602a630058400fb3" />
+
+    </application>
+
+</manifest>
